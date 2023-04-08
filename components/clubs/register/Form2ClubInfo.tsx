@@ -86,10 +86,6 @@ export default function ClubInfo(props) {
                   name="clubInfo"
                 />
               </div>
-              <p className="mt-2 text-sm text-gray-500">
-                Note: clubs will be allowed to operate without an advisor
-                temporarily due to the circumstances surrounding COVID-19.
-              </p>
             </div>
           )}
 
