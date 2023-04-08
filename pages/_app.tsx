@@ -3,7 +3,6 @@ import React, { useEffect } from 'react'
 import { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
 import * as gtag from '../components/utility/gtag'
-import { Analytics } from '@vercel/analytics/react';
 
 const App = ({ Component, pageProps }: AppProps) => {
   const router = useRouter()
@@ -20,7 +19,6 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Component {...pageProps} />
-      <Analytics />
     </>
   )
 }
