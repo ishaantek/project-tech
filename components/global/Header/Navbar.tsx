@@ -35,10 +35,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <Link href="/">
             <a className="flex-shrink-0 flex items-center">
-              <p>Project Tech</p>
-              {/* <img
-                className="block h-9 w-auto"
-              /> */}
+              <img className="block h-9 w-auto" src="././img/logos/main/banner.png" />
             </a>
           </Link>
           <div className="flex">
