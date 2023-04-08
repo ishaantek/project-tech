@@ -155,10 +155,10 @@ export default function Application() {
                 )
                 data.append('Extracurriculars', values.ECs)
               }
-              data.append(
-                '_cc',
-                'igarg0615@gmail.com'
-              )
+              // data.append(
+              //   '_cc',
+              //   'igarg0615@gmail.com'
+              // )
               data.append(
                 '_autoresponse',
                 'Hello,\nThank you for submitting the new club application for Project Tech. Please schedule a time on my calendly to have an onboarding meeting where I can explain information about the Project Tech. Please let me know if you have any questions.\nThanks, Ishaan.'
