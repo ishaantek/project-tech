@@ -13,14 +13,14 @@ export default function Page({ fullTitle, title, desc, children }: PageProps) {
       <Head>
         <title>{pageTitle}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content={desc} />
-        <meta property="og:type" content="website" />
         <meta name="og:title" property="og:title" content={pageTitle} />
-        <meta name="og:description" property="og:description" content={desc} />
+        <meta content="The Project Tech Foundation is a non-profit organization led by students that aims to encourage elementary and middle school students to explore computer programming at an early age. Our programs focus on developing essential creative computer science skills that are not typically taught in schools." property="og:description" />
+        <meta property="og:type" content="website" />
         <meta property="og:site_name" content={pageTitle} />
+        <meta content="https://www.project-tech.org/img/logos/main/banner.png" property="og:image" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={pageTitle} />
-        <meta name="twitter:description" content={desc} />
+        <meta name="twitter:description" content="The Project Tech Foundation is a non-profit organization led by students that aims to encourage elementary and middle school students to explore computer programming at an early age. Our programs focus on developing essential creative computer science skills that are not typically taught in schools." />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

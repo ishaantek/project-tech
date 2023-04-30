@@ -112,7 +112,7 @@ export default function Footer() {
               {
                 name: 'Discord',
                 icon: faDiscord,
-                href: 'discord.gg/AFFYnNVXpZ',
+                href: 'https://discord.gg/AFFYnNVXpZ',
               },
               {
                 name: 'Twitter',
