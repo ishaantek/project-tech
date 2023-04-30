@@ -4,7 +4,7 @@ const routes = [
     name: 'Home',
   },
   {
-    href: 'https://workshops.project-tech.org',
+    href: '/workshops',
     name: 'Workshops',
   },
   {

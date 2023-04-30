@@ -19,15 +19,11 @@ export default function CTA() {
             </a>
           </div>
           <div className="ml-3 inline-flex">
-            <form
-              action="https://www.paypal.com/donate"
-              method="post"
-              target="_blank"
-            >
+            <form action="https://ko-fi.com/ishaantek" method="post" target="_blank">
               <input
                 type="hidden"
                 name="hosted_button_id"
-                defaultValue="99E63279HUDNW"
+                defaultValue="ishaantek"
               />
               <button
                 type="submit"

@@ -27,15 +27,15 @@ export default function Footer() {
                   title="Workshops"
                   links={[
                     {
-                      href: 'https://workshops.project-tech.org/',
+                      href: 'https://project-tech.org/workshops/',
                       name: '1',
                     },
                     {
-                      href: 'https://workshops.project-tech.org/',
+                      href: 'https://project-tech.org/workshops/',
                       name: '2',
                     },
                     {
-                      href: 'https://workshops.project-tech.org/',
+                      href: 'https://project-tech.org/workshops/',
                       name: 'All Workshops',
                     },
                   ]}
@@ -71,14 +71,14 @@ export default function Footer() {
                 </p>
                 <div className="mt-4 rounded-md">
                   <form
-                    action="https://www.paypal.com/donate"
+                    action="https://ko-fi.com/ishaantek"
                     method="post"
                     target="_blank"
                   >
                     <input
                       type="hidden"
                       name="hosted_button_id"
-                      defaultValue="99E63279HUDNW"
+                      defaultValue="ishaantek"
                     />
                     <button
                       type="submit"

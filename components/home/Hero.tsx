@@ -13,7 +13,7 @@ export default function Hero() {
         <main className="mt-5 md:mt-20">
           <div className="mx-auto max-w-3xl text-left sm:text-center">
             <div>
-              {/* <Link href="/people/apply">
+              <Link href="/workshops">
                 <a className="inline-flex shadow-sm items-center text-white bg-yei-secondary-main rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
                   <span className="px-3 py-0.5 text-white text-sm font-semibold leading-5 uppercase tracking-wide bg-yei-primary-darker rounded-full">
                     We're hiring
@@ -25,7 +25,7 @@ export default function Hero() {
                     className="ml-2 w-5 h-5 text-gray-500"
                   />
                 </a>
-              </Link> */}
+              </Link>
               <h1 className="mt-4 text-5xl tracking-tight font-medium text-white sm:mt-5 lg:mt-6 lg:text-7xl xl:text-7xl">
                 <span className="sm:block">Empowering Future </span>
                 <span className="sm:block w-full font-bold relative">
