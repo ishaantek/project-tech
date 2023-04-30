@@ -12,7 +12,7 @@ export default function Page({ fullTitle, title, desc, children }: PageProps) {
     <>
       <Head>
         <title>{pageTitle}</title>
-         <meta name="theme-color" content="#1282FF"></meta>
+         <meta name="theme-color" content="1282FF"></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="og:title" property="og:title" content={pageTitle} />
         <meta content="The Project Tech Foundation is a non-profit organization led by students that aims to encourage elementary and middle school students to explore computer programming at an early age. Our programs focus on developing essential creative computer science skills that are not typically taught in schools." property="og:description" />
