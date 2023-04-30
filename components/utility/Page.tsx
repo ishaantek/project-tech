@@ -17,7 +17,8 @@ export default function Page({ fullTitle, title, desc, children }: PageProps) {
         <meta content="The Project Tech Foundation is a non-profit organization led by students that aims to encourage elementary and middle school students to explore computer programming at an early age. Our programs focus on developing essential creative computer science skills that are not typically taught in schools." property="og:description" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={pageTitle} />
-        <meta content="https://www.project-tech.org/img/logos/main/banner.png" property="og:image" />
+        <meta content="#1282FF" data-react-helmet="true" name="theme-color" />
+        <meta content="https://www.project-tech.org/img/logos/main/logo.png" property="og:image" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content="The Project Tech Foundation is a non-profit organization led by students that aims to encourage elementary and middle school students to explore computer programming at an early age. Our programs focus on developing essential creative computer science skills that are not typically taught in schools." />
