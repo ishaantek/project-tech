@@ -9,7 +9,7 @@ const workshops = [
     title: 'Instructor Application',
     content:
       "We're seeking experienced high school students passionate about computer science to join our CS Discovery Workshops Instructor Program. As an instructor, you'll share your knowledge with other motivated students from around the world. Although the position is voluntary, you'll receive service hours for your time and effort. We welcome applicants with a range of experience levels, including those who have completed advanced courses or participated in programming competitions. Apply today if you're excited about teaching and inspiring others to learn!",
-    href: '/',
+    href: 'https://ishaantek.typeform.com/mentor-app',
   },
 ]
 

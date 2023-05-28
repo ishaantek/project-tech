@@ -35,7 +35,10 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <Link href="/">
             <a className="flex-shrink-0 flex items-center">
-              <img className="block h-9 w-auto" src="././img/logos/main/banner.png" />
+              <img
+                className="block h-9 w-auto"
+                src="/img/logos/main/banner.png"
+              />
             </a>
           </Link>
           <div className="flex">
@@ -75,7 +78,7 @@ export default function Navbar() {
               ))}
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <Link href="/clubs/register">
+                  <Link href="https://ishaantek.typeform.com/project-tech">
                     <a
                       type="button"
                       className="trans-300 relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-yei-primary-main shadow-sm hover:bg-yei-primary-darker"
@@ -84,7 +87,7 @@ export default function Navbar() {
                         icon={faPlus}
                         className="-ml-1 mr-2 h-3 w-3"
                       />
-                      <span>Register a Club</span>
+                      <span>Workshop Registration</span>
                     </a>
                   </Link>
                 </div>

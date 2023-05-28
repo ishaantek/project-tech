@@ -4,6 +4,7 @@ import {
   faPaypal,
   faDiscord,
   faInstagram,
+  faTiktok,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -27,16 +28,16 @@ export default function Footer() {
                   title="Workshops"
                   links={[
                     {
-                      href: 'https://project-tech.org/workshops/',
-                      name: '1',
+                      href: '/workshops/',
+                      name: 'Information',
                     },
                     {
-                      href: 'https://project-tech.org/workshops/',
-                      name: '2',
+                      href: 'https://ishaantek.typeform.com/project-tech',
+                      name: 'Student Registration',
                     },
                     {
-                      href: 'https://project-tech.org/workshops/',
-                      name: 'All Workshops',
+                      href: 'https://ishaantek.typeform.com/mentor-app',
+                      name: 'Instructor Application',
                     },
                   ]}
                 />
@@ -45,8 +46,8 @@ export default function Footer() {
                 <Column
                   title="Clubs"
                   links={[
+                    { href: '/clubs', name: 'Information' },
                     { href: '/clubs/register', name: 'Register a Club' },
-                    { href: '/clubs', name: 'Club Information' },
                   ]}
                 />
               </div>
@@ -115,6 +116,11 @@ export default function Footer() {
                 href: 'https://discord.gg/AFFYnNVXpZ',
               },
               {
+                name: 'Tiktok',
+                icon: faTiktok,
+                href: 'https://www.tiktok.com/@projecttechorg',
+              },
+              {
                 name: 'Twitter',
                 icon: faTwitter,
                 href: 'https://www.twitter.com/projecttechorg',
@@ -132,7 +138,7 @@ export default function Footer() {
             ))}
           </div>
           <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-            © 2023 Project Tech Foundation, All Rights Reserved.
+            © 2023 Project Tech Foundation Inc. All Rights Reserved.
           </p>
         </div>
       </div>

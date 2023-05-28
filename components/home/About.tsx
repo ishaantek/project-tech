@@ -28,8 +28,8 @@ export default function About() {
               can connect with other clubs across the country to share ideas and
               collaborate on projects. Starting a Project Tech club is an
               excellent way for you to develop leadership skills, make a
-              positive impact in your community, and inspire the next
-              generation of tech enthusiasts.
+              positive impact in your community, and inspire the next generation
+              of tech enthusiasts.
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow">
@@ -40,9 +40,9 @@ export default function About() {
                 </Link>
               </div>
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                <Link href="/clubs/current-clubs">
+                <Link href="/clubs/register">
                   <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-yei-primary-main bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10 trans-300">
-                    Current Clubs
+                    Register A Club
                   </a>
                 </Link>
               </div>
