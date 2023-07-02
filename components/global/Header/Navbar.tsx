@@ -78,7 +78,7 @@ export default function Navbar() {
               ))}
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <Link href="/workshops/register">
+                  <Link href="/workshops">
                     <a
                       type="button"
                       className="trans-300 relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-yei-primary-main shadow-sm hover:bg-yei-primary-darker"
@@ -115,7 +115,7 @@ export default function Navbar() {
             />
           ))}
           <div className="flex items-center mx-4 py-1">
-            <Link href="/workshops/register">
+            <Link href="/workshops">
               <a className="justify-center w-full inline-flex items-center px-4 py-2 border border-transparent text-md font-medium rounded-md text-white bg-yei-primary-main shadow-sm hover:bg-yei-primary-darker">
                 <FontAwesomeIcon icon={faPlus} className="-ml-1 mr-2 h-3 w-3" />
                 <span>Workshop Registration</span>
